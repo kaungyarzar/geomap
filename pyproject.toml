@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "geomap"
+version = "0.1.0"
+description = "Simple Geolocation Map"
+authors = ["Kaung Yar Zar <kaung.yarzar@frontiir.net>"]
+readme = "README.md"
+packages = [{include = "geomap", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.104.1"
+
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.24.0.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
