@@ -17,7 +17,7 @@ map.on('load', () => {
             map.addImage('custom-marker', image);
             map.addSource('sites', {
                 type: 'geojson',
-                data: '/api/geoloc'
+                data: '/public/static/geojson/sites.json'
             });
             map.addLayer({
                 id: 'sites',
