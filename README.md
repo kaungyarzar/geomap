@@ -1,4 +1,5 @@
 ## GeoMap
+Simple Geolocation project with GeoJson and MapBox.
 
 ### Requirements
 - python3.8+
